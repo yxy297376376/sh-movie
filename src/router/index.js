@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import CenterRouter from './routes/center'
 import CinemaRouter from './routes/cinema'
 import FilmRouter from './routes/film'
+import DetailRouter from './routes/detail'
 
 Vue.use(VueRouter)
 
@@ -15,7 +16,8 @@ const routes = [
   },
   CenterRouter,
   CinemaRouter,
-  FilmRouter
+  FilmRouter,
+  DetailRouter
 ]
 
 const router = new VueRouter({
