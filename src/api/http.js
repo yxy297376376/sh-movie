@@ -13,6 +13,10 @@ axios.interceptors.request.use(function(config){
     if('info'==info){
         host='mall.film-ticket.film.info'
     }
+    if('city'==info){
+       
+        host='mall.film-ticket.city.list'
+    }
     // console.log(info,host)
     config.headers={
         "X-Client-Info":'{"a":"3000","ch":"1002","v":"5.0.4","e":"16023005322961672008368129","bc":"310100"}',

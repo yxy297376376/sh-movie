@@ -34,6 +34,7 @@ export default {
     background: #fff;
     color: #7a7e83;
     width: 100%;
+    z-index: 1000;
     ul{
         display: flex;
         align-items: center;
